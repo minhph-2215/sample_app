@@ -1,52 +1,51 @@
 en:
-  about_html: <p>
-                The <a href="https://www.railstutorial.org/">The Tutorial</a>, part of the
-                <a href="https://www.learnenough.com/">Learn Enough</a> family of
-                tutorials, is a
-                <a href="https://www.railstutorial.org/book">book</a> and
-                <a href="https://screencasts.railstutorial.org/">screencast series</a>
-                to teach web development with
-                <a href="https://rubyonrails.org/">Ruby on Rails</a>.
-                This is the sample app for the tutorial.
-              </p>
-  
-  contact_html: <p>
-                  Contact the Ruby on Rails Tutorial about the sample app at the
-                  <a href="https://www.railstutorial.org/contact">contact page</a>.
-                </p>
-  
+  login: Log in
+  contact: Contact
+  about: About
   contacttile_html: <h1>Contact</h1>
-  home_html:  <p>
-                This is the home page for the
-                <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-                sample application.
-              </p>
+
   layouts:
-    application:
-      english: English
-      vietnamese: Vietnamese
     header:
       home: Home
       help: Help
-      login: Log in
-      about: About
-      contact: Contact
+      english: English
+      vietnamese: Vietnamese
+      sampleapp: Sample App
+    footer:
+      new: New
+      the: The
+      by: By
+      ruby: Ruby on Rails Tutorial
   static_pages:
-    home: 
+    home:
       welcome: Welcome to the Sample App
       this: This is the home page for the
       sample: App
+      ruby: Ruby on Rails Tutorial
+      sample: sample application.
     help:
-      helpcontent_html: <p>
-                          Get help on the Ruby on Rails Tutorial at the
-                          <a href="https://www.railstutorial.org/help">Rails Tutorial help
-                          page</a>.
-                          To get help on this sample app, see the
-                          <a href="https://www.railstutorial.org/book"><em>Ruby on Rails
-                          Tutorial</em> book</a>.
-                        </p>
+      get: Get help on the Ruby on Rails Tutorial at the
+      railhelp: Rails Tutorial help page
+      to: To get help on this sample app, see the
       help: Help
+      rubytutorial: Ruby on Rails Tutorial
+      book: book
     contact:
       contact: Contact
+      contacttitle: Contact the Ruby on Rails Tutorial about the sample app at the
+      contactpage: contact page
+    about:
+      tuto: The tutorial
+      the: The
+      part: part of the
+      learn: Learn Enough
+      family: family of tutorials, is a
+      book: book
+      and: and
+      screen: screencast series
+      to: to teach web development with
+      this: This is the sample app for the tutorial.
+      about: About
+      ruby: Ruby on Rails
   helper: Ruby on Rails Tutorial Sample App
   title_html: <h1>Sample App</h1>
