@@ -1,3 +1,8 @@
 <% provide :title,t(".help") %>
 <h1><%= t(".help") %></h1>
-<%= t ".helpcontent_html" %>
+<p>
+  <%= t(".help") %>
+  <a href="https://www.railstutorial.org/help"><%= t(".railhelp") %></a>.
+  <%= t(".to") %>
+  <a href="https://www.railstutorial.org/book"><em><%= t(".rubytutorial") %></em><%= t(".book") %></a>.
+</p>

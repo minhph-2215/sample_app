@@ -1,53 +1,51 @@
 vi:
-  about_html: <p>
-              The <a href="https://www.railstutorial.org/">The Tutorial</a>, part of the
-              <a href="https://www.learnenough.com/">Learn Enough</a> family of
-              tutorials, is a
-              <a href="https://www.railstutorial.org/book">book</a> and
-              <a href="https://screencasts.railstutorial.org/">screencast series</a>
-              to teach web development with
-              <a href="https://rubyonrails.org/">Ruby on Rails</a>.
-              This is the sample app for the tutorial.
-            </p>
-  contact_html: <p>
-                Contact the Ruby on Rails Tutorial about the sample app at the
-                <a href="https://www.railstutorial.org/contact">contact page</a>.
-              </p>
+  login: Đăng nhập
+  contact: Liên hệ
+  about: Thông tin
+
   contacttile_html: <h1>Liên hệ</h1>
-  home_html:  <p>
-                This is the home page for the
-                <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-                sample application.
-              </p>
 
   layouts:
     header:
-      home: Trang Chủ
+      home: Trang chủ
       help: Giúp đỡ
-      login: Đăng Nhập
-    application:
       english: Tiếng Anh
       vietnamese: Tiếng Việt
-      about: Tham khảo
-      contact: Liên hệ
-      
+      sampleapp: Sample App
+    footer:
+      new: Tin tức
+      the: Cuốn sách
+      by: bởi
+
   static_pages:
-    home: 
-      welcome: Chào mừng đến với App 
+    home:
+      welcome: Chào mừng truy cập Sample App
       this: Đây là trang chủ của
       sample: App
+      ruby: Ruby on Rails Tutorial
+      sample: ứng dụng mẫu.
     help:
-      helpcontent_html: <p>
-                          Get help on the Ruby on Rails Tutorial at the
-                          <a href="https://www.railstutorial.org/help">Rails Tutorial help
-                          page</a>.
-                          To get help on this sample app, see the
-                          <a href="https://www.railstutorial.org/book"><em>Ruby on Rails
-                          Tutorial</em> book</a>.
-                        </p>
+      get: Thêm thông tin giúp đỡ tại
+      railhelp: trang giúp đỡ Rails Tutorial
+      to: để xem hướng dẫn, truy cập
       help: Giúp đỡ
+      rubytutorial: Ruby on Rails Tutorial
+      book: sách
     contact:
       contact: Liên hệ
-
-  helper: Trang web Ruby On Rail
+      contacttitle: Liên hệ về cuốn sách, truy cập
+      contactpage: trang liên hệ
+    about:
+      tuto: The tutorial
+      the: The
+      part: part of the
+      learn: Learn Enough
+      family: family of tutorials, is a
+      book: book
+      and: and
+      screen: screencast series
+      to: để dạy với chuyên gia
+      this: This is the sample app for the tutorial.
+      about: Thông tin
+  helper: Ruby on Rails Tutorial Sample App
   title_html: <h1>Sample App</h1>
