@@ -24,6 +24,7 @@ vi:
       sample: App
       ruby: Ruby on Rails Tutorial
       sample: ứng dụng mẫu.
+      signup: Đăng ký ngay!
     help:
       get: Thêm thông tin giúp đỡ tại
       railhelp: trang giúp đỡ Rails Tutorial
