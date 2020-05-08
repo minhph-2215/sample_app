@@ -3,7 +3,14 @@ en:
   contact: Contact
   about: About
   contacttile_html: <h1>Contact</h1>
-
+  tutorial_link_html: This is the home page for the <a href= %{link_book}>Ruby on Rails Tutorial</a> sample application.
+  help_page_html: Get help on the Ruby on Rails Tutorial at the <a href= %{link_help}>
+                  Rails Tutorial help page </a>. To get help on this sample app,
+                  see the <a href= %{link_book}><em>Ruby on Rails Tutorial</em> book </a>
+  about_page_html: The <a href= %{rail_home}> The tutorial </a>,
+                   part of the <a href= %{learn_enough}> Learn Enough </a> family of tutorials,
+                   is a <a href= %{rails_book}> book </a> and <a href= %{rails_screen}> screencast series </a>
+                   to teach web development with <a href= %{rails_ruby}> Ruby on Rails. This is the sample app for the tutorial.
   layouts:
     header:
       home: Home
@@ -23,6 +30,7 @@ en:
       sample: App
       ruby: Ruby on Rails Tutorial
       sample: sample application.
+      signup: Sign up now!
     help:
       get: Get help on the Ruby on Rails Tutorial at the
       railhelp: Rails Tutorial help page
@@ -49,3 +57,6 @@ en:
       ruby: Ruby on Rails
   helper: Ruby on Rails Tutorial Sample App
   title_html: <h1>Sample App</h1>
+  users:
+    new:
+      signup: Sign up

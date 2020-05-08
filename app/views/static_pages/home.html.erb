@@ -1,6 +1,7 @@
-<%= t "title_html" %>
-<p>
-  <%= t(".this") %>
-  <a href="https://www.railstutorial.org/"><%= t(".ruby") %></a>
-  <%= t(".sample") %>
-</p>
+<div class="center jumbotron">
+  <h1><%= t ".welcome" %></h1>
+  <h2>
+    <%= t("tutorial_link_html", link_book: "https://www.railstutorial.org/" ) %>
+  </h2>
+  <%= link_to t(".signup"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
